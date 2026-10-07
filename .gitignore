@@ -1,0 +1,15 @@
+# Publishing repository: this repo holds BUILT OUTPUT ONLY.
+# Editable source lives in the private repository deceipt-tech/frontend.
+
+# Never commit source or dependencies here.
+node_modules/
+src/
+tests/
+
+# Environment files must never reach this repository.
+.env*
+!.env.example
+
+# Build/editor noise.
+.DS_Store
+*.tsbuildinfo
